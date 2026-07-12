@@ -1,49 +1,72 @@
-# 秋招进度追踪表
+<div align="center">
 
-一个用于记录和管理秋招投递进度的 Excel 模板，适合跟踪公司、岗位、投递渠道、流程阶段、面试/笔试安排、跟进日期和备注。
+# Qiuzhao Tracker
 
-## 功能
+**A polished Excel template for managing campus recruitment, internships, and job applications.**
 
-- 总览页自动统计投递总数、进行中、Offer、已结束/拒绝和 7 天内待办
-- 投递追踪页支持筛选和冻结表头
-- 阶段、优先级、投递渠道提供下拉选项
-- 下一步日期和关键状态带有条件提醒
-- 设置页可维护流程阶段、优先级和渠道选项
+[![License: MIT](https://img.shields.io/github/license/wangelica666-svg/zhiyun?style=flat-square)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/wangelica666-svg/zhiyun?style=flat-square)](https://github.com/wangelica666-svg/zhiyun/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/wangelica666-svg/zhiyun?style=flat-square)](https://github.com/wangelica666-svg/zhiyun/commits)
+[![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)](templates/%E7%A7%8B%E6%8B%9B%E8%BF%9B%E5%BA%A6%E8%BF%BD%E8%B8%AA%E8%A1%A8.xlsx)
 
-## 文件
+[Download the template](templates/%E7%A7%8B%E6%8B%9B%E8%BF%9B%E5%BA%A6%E8%BF%BD%E8%B8%AA%E8%A1%A8.xlsx) · [中文说明](README_zh.md) · [Contributing](CONTRIBUTING.md)
 
-- `templates/秋招进度追踪表.xlsx`: 可直接使用的 Excel 模板
-- `preview/总览.png`: 总览页预览
-- `preview/投递追踪.png`: 投递追踪页预览
-- `preview/设置.png`: 设置页预览
+</div>
 
-## 使用方式
+![Dashboard preview](preview/%E6%80%BB%E8%A7%88.png)
 
-1. 下载 `templates/秋招进度追踪表.xlsx`
-2. 在「投递追踪」表中从第 5 行开始填写公司和岗位
-3. 更新「当前阶段」「优先级」「下一步日期」等字段
-4. 在「总览」表查看自动汇总结果
+## Why Qiuzhao Tracker?
 
-## 建议字段
+Job hunting gets complicated quickly: roles, deadlines, interview rounds, contacts, and follow-ups all move at different speeds. Qiuzhao Tracker keeps everything in one local Excel workbook—no account, subscription, or plug-in required.
 
-模板包含以下主要字段：
+## Features
 
-- 公司
-- 岗位
-- 城市
-- 业务/方向
-- 投递渠道
-- 截止日期
-- 当前阶段
-- 优先级
-- 投递日期
-- 下一步日期
-- 跟进日期
-- 联系人
-- 链接
-- 状态备注
-- 下一步
+- Dashboard with automatic totals for applications, active processes, offers, closed applications, and upcoming tasks
+- Filterable application tracker with frozen headers
+- Drop-down options for stage, priority, and application channel
+- Conditional reminders for important dates and statuses
+- Editable settings sheet for customizing workflow stages and options
+- Works offline in Microsoft Excel
 
-## 许可协议
+## Preview
 
-本项目使用 MIT License，可自由使用、修改和分发。
+### Application tracker
+
+![Application tracker preview](preview/%E6%8A%95%E9%80%92%E8%BF%BD%E8%B8%AA.png)
+
+### Customizable settings
+
+![Settings preview](preview/%E8%AE%BE%E7%BD%AE.png)
+
+## Quick start
+
+1. [Download the Excel template](templates/%E7%A7%8B%E6%8B%9B%E8%BF%9B%E5%BA%A6%E8%BF%BD%E8%B8%AA%E8%A1%A8.xlsx).
+2. Open it in Microsoft Excel.
+3. Add applications from row 5 in the **投递追踪** sheet.
+4. Update the stage, priority, and next-action date as your application progresses.
+5. Check the **总览** sheet for an automatic summary.
+
+> The workbook interface is currently in Simplified Chinese. See the [Chinese guide](README_zh.md) for field descriptions.
+
+## What is tracked?
+
+Company, role, city, business area, application channel, deadline, current stage, priority, application date, next-action date, follow-up date, contact, link, status notes, and next action.
+
+## Repository structure
+
+```text
+.
+├── docs/        # GitHub Pages landing page
+├── preview/     # Workbook screenshots
+├── templates/   # Downloadable Excel workbook
+├── README.md
+└── README_zh.md
+```
+
+## Contributing and security
+
+Ideas, fixes, and improvements are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. To report a vulnerability privately, follow [SECURITY.md](SECURITY.md).
+
+## License
+
+Released under the [MIT License](LICENSE). You may use, modify, and distribute this project under its terms.
